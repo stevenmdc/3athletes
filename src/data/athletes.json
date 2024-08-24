@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Alice Dupont",
+    "category": "Sénior Femme",
+    "specialty": "Longue distance",
+    "achievements": [
+      "1ère place au Triathlon de Paris 2023",
+      "3ème place au Championnat National 2022",
+      "Participation à l'Ironman France 2022"
+    ],
+    "quote": "Le triathlon, c’est plus qu’un sport, c’est un style de vie.",
+    "photoUrl": "https://via.placeholder.com/300" 
+  },
+  {
+    "name": "Jean Martin",
+    "category": "Vétéran Homme",
+    "specialty": "Sprint",
+    "achievements": [
+      "2ème place au Triathlon de Lyon 2023",
+      "1ère place au Championnat Régional 2021"
+    ],
+    "quote": "Se dépasser chaque jour, c’est ça l’esprit triathlon.",
+    "photoUrl": "https://via.placeholder.com/300" 
+  },
+  {
+    "name": "Sophie Lefevre",
+    "category": "Sénior Femme",
+    "specialty": "Olympique",
+    "achievements": [
+      "1ère place au Triathlon de Marseille 2022",
+      "Participation à l'Ironman France 2021"
+    ],
+    "quote": "Le triathlon, c’est une aventure humaine autant que sportive.",
+    "photoUrl": "https://via.placeholder.com/300" 
+  },
+  {
+    "name": "Pierre Lefevre",
+    "category": "Sénior Homme",
+    "specialty": "Longue distance",
+    "achievements": [
+      "1ère place au Triathlon de Paris 2022",
+      "Participation à l'Ironman France 2021"
+    ],
+    "quote": "Le triathlon, c’est une école de la persévérance.",
+    "photoUrl": "https://via.placeholder.com/300" 
+  },
+  {
+    "name": "Marie Dupont",
+    "category": "Sénior Femme",
+    "specialty": "Sprint",
+    "achievements": [
+      "1ère place au Triathlon de Paris 2021",
+      "Participation à l'Ironman France 2021"
+    ],
+    "quote": "Le triathlon, c’est une école de la persévérance.",
+    "photoUrl": "https://via.placeholder.com/300" 
+  },
+  {
+    "name": "Paul Martin",
+    "category": "Sénior Homme",
+    "specialty": "Olympique",
+    "achievements": [
+      "1ère place au Triathlon de Paris 2021",
+      "Participation à l'Ironman France 2021"
+    ],
+    "quote": "Le triathlon, c’est une école de la persévérance.",
+    "photoUrl": "https://via.placeholder.com/300" 
+  },
+  {
+    "name": "Julie Lefevre",
+    "category": "Sénior Femme",
+    "specialty": "Longue distance",
+    "achievements": [
+      "1ère place au Triathlon de Paris 2021",
+      "Participation à l'Ironman France 2021"
+    ],
+    "quote": "Le triathlon, c’est une école de la persévérance.",
+    "photoUrl": "https://via.placeholder.com/300" 
+  }
+]
