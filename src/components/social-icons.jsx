@@ -2,8 +2,8 @@ import React from "react";
 
 export function SocialIcons() {
   return (
-    <div class="fixed bottom-0 left-6 z-50 flex flex-col">
-      <ul className="wrapper">
+    <div className="fixed bottom-0 left-6">
+      <ul className="wrapper flex">
         <li className="group relative m-[10px] inline-flex h-8 w-8 cursor-pointer list-none items-center justify-center rounded-full bg-white p-[15px] shadow-md">
           <a href="#" target="_blank" aria-label="Facebook" title="Facebook">
             <svg
@@ -48,7 +48,7 @@ export function SocialIcons() {
             >
               <g
                 xmlns="http://www.w3.org/2000/svg"
-                clip-path="url(#clip0_1059_3547)"
+                clipPath="url(#clip0_1059_3547)"
               >
                 <path
                   fill="#F9A77F"

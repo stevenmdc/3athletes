@@ -43,38 +43,5 @@
     ],
     "quote": "Le triathlon, c’est une école de la persévérance.",
     "photoUrl": "https://via.placeholder.com/300" 
-  },
-  {
-    "name": "Marie Dupont",
-    "category": "Sénior Femme",
-    "specialty": "Sprint",
-    "achievements": [
-      "1ère place au Triathlon de Paris 2021",
-      "Participation à l'Ironman France 2021"
-    ],
-    "quote": "Le triathlon, c’est une école de la persévérance.",
-    "photoUrl": "https://via.placeholder.com/300" 
-  },
-  {
-    "name": "Paul Martin",
-    "category": "Sénior Homme",
-    "specialty": "Olympique",
-    "achievements": [
-      "1ère place au Triathlon de Paris 2021",
-      "Participation à l'Ironman France 2021"
-    ],
-    "quote": "Le triathlon, c’est une école de la persévérance.",
-    "photoUrl": "https://via.placeholder.com/300" 
-  },
-  {
-    "name": "Julie Lefevre",
-    "category": "Sénior Femme",
-    "specialty": "Longue distance",
-    "achievements": [
-      "1ère place au Triathlon de Paris 2021",
-      "Participation à l'Ironman France 2021"
-    ],
-    "quote": "Le triathlon, c’est une école de la persévérance.",
-    "photoUrl": "https://via.placeholder.com/300" 
   }
 ]

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Inter } from "next/font/google";
 import Navigation from "@/components/Nav";
+import AnimatedLogo from "@/components/logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,33 +13,7 @@ export default function Home() {
         <div className="h-screen grid grid-cols-4">
           <div className="col-span-3 bg-neutral-800 p-4">
             {/* Content for the larger 2/3 section */}
-            <div className="flex w-full pl-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 250 50"
-                width={250}
-                height={50}
-              >
-                <text
-                  x="0"
-                  y="50%"
-                  font-family="'Roboto', sans-serif"
-                  font-size="24"
-                  font-weight="bold"
-                  dominantBaseline="middle"
-                  alignmentBaseline="middle" 
-                  fill="whitesmoke"
-                >
-                  <tspan x="0" dy="0" letter-spacing="2">
-                    BREST
-                  </tspan>
-                  <tspan x="95" dy="0" font-weight="normal">
-                    Triathlon
-                  </tspan>
-                </text>
-              </svg>
-            </div>
-
+            <AnimatedLogo />
             <Navigation />
           </div>
           <div className="col-span-1 bg-white p-4">

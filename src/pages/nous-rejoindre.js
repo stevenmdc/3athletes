@@ -1,9 +1,9 @@
 // Import necessary modules or dependencies
-import { SocialIcons } from '@/components/social-icons';
-import Image from 'next/image';
-import Link from 'next/link';
-
 // Define the Club page component
+import Image from "next/image";
+import Link from "next/link";
+import { SocialIcons } from "@/components/social-icons";
+
 export default function JoinUs() {
   return (
     <>
@@ -11,30 +11,13 @@ export default function JoinUs() {
         <div className="col-span-3 bg-neutral-800 p-4">
           {/* Content for the larger 3/4 section */}
           <div className="flex w-full pl-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 250 50"
-              width={250}
+            <Image
+              src="/images/logo-3athlete-black.png"
+              alt="Logo"
+              width={50}
               height={50}
-            >
-              <text
-                x="0"
-                y="50%"
-                fontFamily="'Roboto', sans-serif"
-                fontSize="24"
-                fontWeight="bold"
-                dominantBaseline="middle"
-                alignmentBaseline="middle"
-                fill="whitesmoke"
-              >
-                <tspan x="0" dy="0" letterSpacing="2">
-                  BREST
-                </tspan>
-                <tspan x="95" dy="0" fontWeight="normal">
-                  Triathlon
-                </tspan>
-              </text>
-            </svg>
+              className="m-4" // Add class for animation
+            />
           </div>
         </div>
 
@@ -55,33 +38,23 @@ export default function JoinUs() {
         <h1 className="text-4xl font-bold text-center text-red-500 mt-8">
           Rejoignez-nous
         </h1>
-
-        <div className="absolute right-[8%] bottom-0 overflow-hidden h-screen">
-          <Image
-            src="/images/Hero.png"
-            alt="Hero"
-            width={450} // Adjust the size as needed
-            height={600} // Adjust the size as needed
-            className="animate-slidein2"
-          />
-        </div>
       </div>
       <div className="fixed bottom-0 right-0 m-4">
-          <Link href={`${process.env.NEXT_PUBLIC_SITE_URL}/contact`}>
-            {" "}
-            {/* Update the href with your next page link */}
-            <Image
-              src="/images/arrow-right.png" // Path to your arrow image
-              alt="Next Page"
-              width={50} // Adjust width as needed
-              height={50} // Adjust height as needed
-            />
-            <span className="text-5xl tracking-wide font-semibold text-red-500">
-              04
-            </span>
-          </Link>
-        </div>
-        <SocialIcons />
+        <Link href={`${process.env.NEXT_PUBLIC_SITE_URL}/contact`}>
+          {" "}
+          {/* Update the href with your next page link */}
+          <Image
+            src="/images/arrow-right.png" // Path to your arrow image
+            alt="Next Page"
+            width={50} // Adjust width as needed
+            height={50} // Adjust height as needed
+          />
+          <span className="text-5xl tracking-wide font-semibold text-red-500">
+            04
+          </span>
+        </Link>
+      </div>
+      <SocialIcons />
     </>
   );
 }

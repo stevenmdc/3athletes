@@ -7,10 +7,7 @@ const Navigation = () => {
     <nav className="text-neutral-800 text-8xl font-bold p-4">
       <ul className="-mt-4 -space-y-2">
         <li className="flex group">
-          <h1
-            id="nav-titles"
-            className="nav-titles stroke-1 text-slate-300 text-transparent cursor-pointer hover:text-slate-300 animate-showup2"
-          >
+          <h1 className="nav-titles stroke-1 text-slate-300">
             <Link href="#">
               <div className="flex items-center">
                 <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-50">
@@ -29,10 +26,7 @@ const Navigation = () => {
           <span className="text-sm mt-4 ml-2 text-stone-400">01</span>
         </li>
         <li className="flex group">
-          <h1
-            id="nav-titles"
-            className="nav-titles stroke-1 text-slate-300 text-transparent cursor-pointer hover:text-slate-300 animate-showup"
-          >
+        <h1 className="nav-titles stroke-1 text-slate-300">
             <Link href={`${process.env.NEXT_PUBLIC_SITE_URL}/le-club`}>
               <div className="flex items-center">
                 <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-50">
@@ -52,10 +46,7 @@ const Navigation = () => {
         </li>
 
         <li className="flex group">
-          <h1
-            id="nav-titles"
-            className="nav-titles stroke-1 text-slate-300 text-transparent cursor-pointer hover:text-slate-300 animate-showup2"
-          >
+        <h1 className="nav-titles stroke-1 text-slate-300">
             <Link href={`${process.env.NEXT_PUBLIC_SITE_URL}/entrainements`}>
               <div className="flex items-center">
                 <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-50">
@@ -75,10 +66,7 @@ const Navigation = () => {
         </li>
 
         <li className="flex group">
-          <h1
-            id="nav-titles"
-            className="nav-titles stroke-1 text-slate-300 text-transparent cursor-pointer hover:text-slate-300 animate-showup4"
-          >
+        <h1 className="nav-titles stroke-1 text-slate-300">
             <Link href={`${process.env.NEXT_PUBLIC_SITE_URL}/contact`}>
               <div className="flex items-center">
                 <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-50">
@@ -90,7 +78,7 @@ const Navigation = () => {
                     className="hidden items-center mt-2 group-hover:block" // Hide the image on mobile
                   />
                 </span>
-               CONTACT
+                CONTACT
               </div>
             </Link>
           </h1>
@@ -98,7 +86,7 @@ const Navigation = () => {
         </li>
       </ul>
       <button
-        onClick={() => window.location.href = '/nous-rejoindre'}
+        onClick={() => (window.location.href = "/nous-rejoindre")}
         className="btn group flex mt-4 bg-red-500 text-white items-center text-sm rounded-full font-extrabold hover:text-black hover:bg-white"
       >
         NOUS REJOINDRE
